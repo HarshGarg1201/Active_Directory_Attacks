@@ -1,0 +1,28 @@
+{
+    "domain" : "xyz.com",
+
+    "groups" : [
+        {
+            "name" : "ComputerScienceEng"
+        }
+    ],
+
+    "users" : [
+
+        {
+            "name" : "Alice Alice" ,
+            "password" : "P@ssw0rd789",
+            "groups" : [
+                "ComputerScienceEng"
+            ]
+        },
+
+        {
+            "name" : "Bob Bob" ,
+            "password" : "P@ssw0rd789",
+            "groups" : [
+                "ComputerScienceEng"
+            ]
+        }
+    ]
+}

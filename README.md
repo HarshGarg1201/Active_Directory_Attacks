@@ -18,5 +18,14 @@ Domain Controller &amp; Domain User Setup, Enumeration, Pass-The-Hash, Kerberoas
 ```Shell
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ```
+```
+Get-NetIPAddress
+```
+# Joining the workstation to the Domain
+
+```
+AddComputer -DomainName xyz.com -Credential xyz\Administrator -Force -Restart
+```
+
 
 #  Active Directory Setup 
